@@ -1,0 +1,44 @@
+.showcase {
+    background-color: var(--bg-color);
+    padding: 3rem 0;
+}
+
+.showcase-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.showcase-text-group h2 {
+    color: #3C3C3C;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 1.2rem;
+}
+
+.showcase-text-group p {
+    color: #3C3C3C;
+    margin-bottom: 1.2rem;
+    line-height: 1.5;
+}
+
+.showcase-text-group li {
+    color: #3C3C3C;
+    margin-bottom: 0.7rem;
+}
+
+.showcase-text-group li img {
+    margin-right: 0.5rem;
+}
+
+
+@media screen and (max-width: 700px) {
+    .showcase-group {
+        grid-template-columns: 1fr;
+    }
+    .showcase-text-group h2 {
+        font-size: 1.5rem;
+    }
+}
